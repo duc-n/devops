@@ -1,7 +1,3 @@
-# oreilly-docker-java-shopping
-This repo contains code samples from my O'Reilly minibook ["Containerizing Continuous Delivery in Java: Docker Integration for Build Pipelines and Application Architecture"](https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/).
-
-This README is intended to provide high-level guidance of the project, and detailed instructions can be found in the accompanying book.
 
 ## Project Structure
 
