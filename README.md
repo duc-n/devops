@@ -6,7 +6,7 @@
  * Currently the installation is undertaken using [Vagrant](https://www.vagrantup.com/) and Oracle's [VirtualBox](https://www.virtualbox.org/)
  * Once Vagrant and VirtualBox are installed locally, the Jenkins box can be built from this directory using the `vagrant up` command
  * vagrant box list | cut -f 1 -d ' ' | xargs -L 1 vagrant box remove -f
- * vagrant reload
+ * vagrant reload = The equivalent of running a halt followed by an up.
  * The jobs is stored in /var/lib/jenkins/jobs/stockmanager/config.xml directory.
  * Jenkins plugin : CloudBees Docker Build and Publish Plugin
 * functional-e2e-tests
