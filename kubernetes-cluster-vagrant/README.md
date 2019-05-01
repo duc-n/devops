@@ -13,6 +13,7 @@ Execute the following vagrant command to start a new Kubernetes cluster, this wi
 ```
 vagrant up
 vagrant ssh k8s-head
+vagrant halt
 ```
 
 You can also start invidual machines by vagrant up k8s-head, vagrant up k8s-node-1 and vagrant up k8s-node-2
