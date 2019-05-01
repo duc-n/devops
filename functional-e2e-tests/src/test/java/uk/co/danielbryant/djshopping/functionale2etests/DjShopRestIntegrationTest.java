@@ -17,7 +17,7 @@ public class DjShopRestIntegrationTest {
                 .when()
                 .get(SUT_BASE_URI + "products")
                 .then()
-                .body("size()", is(5));
+                .body("size()", is(4));
     }
 
     @Test

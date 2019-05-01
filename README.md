@@ -5,6 +5,10 @@
  * Installation files that build a Jenkins instance that is ready for experimenting with the examples contained within the book.
  * Currently the installation is undertaken using [Vagrant](https://www.vagrantup.com/) and Oracle's [VirtualBox](https://www.virtualbox.org/)
  * Once Vagrant and VirtualBox are installed locally, the Jenkins box can be built from this directory using the `vagrant up` command
+ * vagrant box list | cut -f 1 -d ' ' | xargs -L 1 vagrant box remove -f
+ * vagrant reload
+ 
+ * Jenkins plugin : CloudBees Docker Build and Publish Plugin
 * functional-e2e-tests
  * Simple examples of functional end-to-end tests that use JUnit and [REST-assured](http://rest-assured.io/) to test the DJShopping application
 * performance-e2e-tests
