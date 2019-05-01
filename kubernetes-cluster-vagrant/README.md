@@ -13,6 +13,17 @@ Execute the following vagrant command to start a new Kubernetes cluster, this wi
 ```
 vagrant up
 vagrant ssh k8s-head
+cd /vagrant/kubernetes
+kubectl apply -f shopfront-service.yaml
+kubectl apply -f productcatalogue-service.yaml
+kubectl apply -f stockmanager-service.yaml
+kubectl get svc
+kubectl get pods
+minikube service shopfront
+
+kubectl delete -f shopfront-service.yaml
+kubectl delete -f productcatalogue-service.yaml
+kubectl delete -f stockmanager-service.yaml
 vagrant halt
 ```
 
