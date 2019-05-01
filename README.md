@@ -7,7 +7,7 @@
  * Once Vagrant and VirtualBox are installed locally, the Jenkins box can be built from this directory using the `vagrant up` command
  * vagrant box list | cut -f 1 -d ' ' | xargs -L 1 vagrant box remove -f
  * vagrant reload
- 
+ * The jobs is stored in /var/lib/jenkins/jobs/stockmanager/config.xml directory.
  * Jenkins plugin : CloudBees Docker Build and Publish Plugin
 * functional-e2e-tests
  * Simple examples of functional end-to-end tests that use JUnit and [REST-assured](http://rest-assured.io/) to test the DJShopping application
