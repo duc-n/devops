@@ -24,7 +24,7 @@ minikube service shopfront
 kubectl delete -f shopfront-service.yaml
 kubectl delete -f productcatalogue-service.yaml
 kubectl delete -f stockmanager-service.yaml
-vagrant halt
+vagrant halt : stop vm
 ```
 
 You can also start invidual machines by vagrant up k8s-head, vagrant up k8s-node-1 and vagrant up k8s-node-2

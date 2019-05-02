@@ -31,6 +31,9 @@
   * Build the Docker images via the command `docker-compose -f docker-compose-build.yml build`
   * Build and run the Docker images via the command `docker-compose -f docker-compose-build.yml up --build`
 
+* CDK installation url : https://access.redhat.com/documentation/en-us/red_hat_container_development_kit/3.8/html/getting_started_guide/getting_started_with_container_development_kit#installing-minishift
+  * command : start --vm-driver=virtualbox
+  * or oc cluster up
 ## Example Jenkins Pipelines
 
 Once the Jenkins instance has been built and configured as specified in the accompanying minibook, and the DJShopping build items have been configured and run, it will be possible to create Jenkins Pipeline examples for running end-to-end tests. The examples contained within the book are included here for reference:
